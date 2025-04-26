@@ -35,14 +35,14 @@ export const Achievements = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="flex items-start gap-4">
-                <div className="p-2 bg-purple/10 dark:bg-purple/20 rounded-full mt-1">
-                  <Star className="h-6 w-6 text-purple" />
+                <div className="p-2 bg-primary/10 dark:bg-primary/20 rounded-full mt-1">
+                  <Star className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1 text-neutral-900 dark:text-neutral-100">
                     {achievement.title}
                   </h3>
-                  <p className="text-purple dark:text-purple-light text-sm mb-3">
+                  <p className="text-accent dark:text-accent-light text-sm mb-3">
                     {achievement.organization}
                   </p>
                   <p className="text-neutral-700 dark:text-neutral-300">

@@ -41,7 +41,7 @@ export const Header = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-neutral-700 dark:text-neutral-300 hover:text-purple dark:hover:text-purple-light transition-colors duration-200 font-medium link-hover"
+              className="text-neutral-700 dark:text-neutral-300 hover:text-primary dark:hover:text-primary-light transition-colors duration-200 font-medium link-hover"
             >
               {link.name}
             </a>
@@ -54,7 +54,7 @@ export const Header = () => {
           <ThemeToggle />
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="ml-2 p-2 text-neutral-700 dark:text-neutral-300 hover:text-purple dark:hover:text-purple-light"
+            className="ml-2 p-2 text-neutral-700 dark:text-neutral-300 hover:text-primary dark:hover:text-primary-light"
             aria-label="Toggle menu"
           >
             <svg
@@ -92,7 +92,7 @@ export const Header = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-neutral-700 dark:text-neutral-300 hover:text-purple dark:hover:text-purple-light py-2 border-b border-neutral-200 dark:border-neutral-700"
+                className="text-neutral-700 dark:text-neutral-300 hover:text-primary dark:hover:text-primary-light py-2 border-b border-neutral-200 dark:border-neutral-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.name}
