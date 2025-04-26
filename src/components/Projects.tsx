@@ -1,5 +1,5 @@
 
-import { GitHub, Link } from "lucide-react";
+import { Github, Link } from "lucide-react";
 
 export const Projects = () => {
   const projects = [
@@ -84,7 +84,7 @@ export const Projects = () => {
                   className="text-neutral-700 dark:text-neutral-300 hover:text-purple dark:hover:text-purple-light transition-colors inline-flex items-center"
                   aria-label={`GitHub repository for ${project.title}`}
                 >
-                  <GitHub className="h-5 w-5 mr-1" /> Code
+                  <Github className="h-5 w-5 mr-1" /> Code
                 </a>
                 <a 
                   href={project.demo} 
