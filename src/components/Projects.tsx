@@ -81,14 +81,14 @@ export const Projects = () => {
               <div className="flex space-x-4 mt-auto">
                 <a 
                   href={project.github} 
-                  className="text-neutral-700 dark:text-neutral-300 hover:text-purple dark:hover:text-purple-light transition-colors inline-flex items-center"
+                  className="text-neutral-700 dark:text-neutral-300 hover:text-primary dark:hover:text-primary-light transition-colors inline-flex items-center"
                   aria-label={`GitHub repository for ${project.title}`}
                 >
                   <Github className="h-5 w-5 mr-1" /> Code
                 </a>
                 <a 
                   href={project.demo} 
-                  className="text-neutral-700 dark:text-neutral-300 hover:text-purple dark:hover:text-purple-light transition-colors inline-flex items-center"
+                  className="text-neutral-700 dark:text-neutral-300 hover:text-primary dark:hover:text-primary-light transition-colors inline-flex items-center"
                   aria-label={`Live demo for ${project.title}`}
                 >
                   <Link className="h-5 w-5 mr-1" /> Demo
